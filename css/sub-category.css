@@ -1,0 +1,197 @@
+
+/**Sub category search**/
+.search-subcategory  {
+width: 100%;
+height: auto;
+margin: 0;
+padding: 0;
+border-bottom: solid 1px #9b9b9b;
+border-top: none;
+border-left: none;
+border-right: none;
+background: transparent;
+line-height: 59.99999999999999px;
+font-size: 50px;
+font-weight: normal;
+font-weight: 500;
+letter-spacing: -1px
+}
+.search-subcategory {
+  margin-top: 0em;
+margin-right: 0em;
+margin-bottom: 0em;
+margin-left: 0em;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+font-family: -apple-system;
+font-variant: normal;
+color: initial;
+letter-spacing: normal;
+word-spacing: normal;
+line-height: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: left;
+color:#fff;
+}
+:focus{
+	outline-style: auto;
+outline-width: 0px;
+outline-color: none;
+}
+
+
+
+
+
+
+.content-3 a{
+	text-decoration: none;
+}
+
+
+
+/**subcategory navbar scrolling**/
+
+.sub-category-search .active{
+	border-bottom: solid 4px #f1c40f;
+	color:#f1c40f;
+}
+.scroll {
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.example-two-header .logo {
+  width: 25%;
+}
+.example-two-header nav {
+  width: 75%;
+}
+
+.example-three .logo,
+.example-three nav {
+  width: 100%;
+}
+.example-three .nav-item {
+  color: #eee;
+}
+
+
+.example-one-header,
+.example-two-header {
+  border-radius: 3px;
+}
+
+.example-three-header {
+  border-radius: 3px 3px 0 0;
+}
+
+.example-three nav {
+  background: #eee;
+  white-space: nowrap;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 0 0 3px 3px;
+}
+
+.logo {
+  text-align: center;
+  font-weight: 700;
+  color: #333;
+  border-right: 1px solid rgba(114, 124, 135, 0.4);
+  padding: 13px 24px 12px;
+}
+
+.nav-item {
+  padding: 13px 16px 12px;
+}
+.nav-item:not(:last-child) {
+  border-right: 1px solid rgba(114, 124, 135, 0.2);
+}
+
+.logo,
+.nav-item {
+  font-size: 14px;
+}
+
+.logo,
+.nav-item,
+.vertical-align-middle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title {
+  margin: 24px 0 6px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: #999;
+}
+
+/** Search Collapse **/
+.search-collapse{
+	margin-bottom: 0px;
+}
+.search-collapse .panel{
+	border: none;
+	background-color: transparent;
+	margin-bottom: 0px;
+	box-shadow: none;
+}
+.search-collapse .panel-heading{
+	border: none;
+	background-color: transparent;
+	padding: 0px;
+	padding-top: 5px;
+}
+.search-collapse .panel-body{
+	border-top: none !important;
+	padding-top: 50px;
+}
+
+/**venue card grid**/
+.venue-title{
+	width: 100%;
+	display: inline-block;
+}
+.venue-desc{
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: left;
+	font-size: 13px;
+}
+#fh5co-board .item{
+	border: solid 1px #f1c40f;
+}
+.card-buttons{
+	border-top: solid 1px #f1c40f;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: -5px;
+	margin-top: 10px;
+}
+.card-buttons .col-md-6{
+	padding: 0px;
+}
+.venue-btn{
+	text-decoration: none;
+	color:#333;
+	padding: 8px;
+}
+.venue-btn .glyphicon{
+	padding-right: 5px;
+}
+.call{
+	border-right:solid 1px #f1c40f;
+}
+.venue-btn:hover{
+	text-decoration: none;
+	background-color: #f1c40f;
+}

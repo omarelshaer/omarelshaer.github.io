@@ -1,0 +1,88 @@
+
+/**parallax-header**/
+.custom-bg {
+  background-image: url('../assets/category-header.png');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.content-parallax {
+  position: relative;
+  height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.content-parallax h1{
+  margin-top: 10%;
+}
+.wlc-h{
+  max-height: 400px;
+}
+
+/**category**/
+
+.sub-category{
+  max-height: 300px;
+}
+.dummy-sub {
+    margin-top: 70%;
+}
+.thumbnail1-sub {
+  background-size: cover;
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    text-align:center;
+    padding-top:calc(30% - 30px);
+    border-radius: 10px;
+}
+.restaurants{
+  background: url("../assets/restaurants.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.fastfood{
+  background: url("../assets/fastfood.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bakeries{
+  background: url("../assets/bakeries.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.cafes{
+  background: url("../assets/cafes.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.sub-category a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.grey {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+/* Disable grayscale on hover */
+.grey:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
